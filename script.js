@@ -28,7 +28,8 @@ function fillCampus() {
   }
 
   if(campusValue === "Not Enrolled in any Campus"){
-    document.getElementById("campus").value = ""
+    document.getElementById("campus").value = "";
+    // document.getElementById("campus").value = "Not Enrolled in any Campus";
     console.log("Campus =>" , campusValue);
   }
   else{
